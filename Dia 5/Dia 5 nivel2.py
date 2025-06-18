@@ -41,9 +41,9 @@ if n_paises % 2 == 0:
     SegundaMitad = paises[n_paises // 2:]
 else:
     PrimeraMitad = paises[:n_paises // 2 + 1]
-    SegundaMitad = paises[n_paises // 2 + 1:]
+    SegundaMitad = paises[n_paises // 2 + 1]
 
-# 10. Desenlistar los primeros 3 paises y los demás paises escandicos
+# 10. Desenlistar los primeros 3 paises y los demás paises escandinavos
 primer_pais, segundo_pais, tercer_pais, *scandic_paises = paises
 
 # Imprimir los resultados
@@ -61,4 +61,4 @@ print("Segunda mitad de la lista:", SegundaMitad)
 print("Primer país:", primer_pais)
 print("Segundo país:", segundo_pais)
 print("Tercer país:", tercer_pais)
-print("Paises escándicos:", scandic_paises)
+print("Paises escandinavos:", scandic_paises)

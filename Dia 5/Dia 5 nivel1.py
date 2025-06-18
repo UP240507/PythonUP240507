@@ -5,7 +5,8 @@ listaV = []
 lista = [1, 2, 3, 4, 5, 6]
 
 # 3. Encontrar el tamaño de la lista
-print(tamañoLista = len(lista))
+tamañoLista = len(lista)
+print(tamañoLista)
 
 # 4. Tomar el primer item, el de en medio y el ultimo de la lista
 primerI = lista[0]
@@ -25,9 +26,12 @@ print(it_companies)
 print(len(it_companies))
 
 # 9. Imprimir la primera, la de en medio y la ultima compañia
-print(PrimerEm = it_companies[0])
-print(EmpresaEn = it_companies[len(it_companies) // 2])
-print(UltimaEm = it_companies[-1])
+PrimerEm = it_companies[0]
+EmpresaEn = it_companies[len(it_companies) // 2]
+UltimaEm = it_companies[-1]
+print(PrimerEm)
+print(EmpresaEn)
+print(UltimaEm)
 
 # 10. Imprimir la lista despues de modificarla
 it_companies[0] = "Meta"  # Changing Facebook to Meta
